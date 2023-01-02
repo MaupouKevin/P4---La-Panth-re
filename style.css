@@ -285,6 +285,9 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 32px;
+    background: url(img/texture-paper.png) #f3976cba;
+    border-radius: 25px;
+    margin: 20px 60px;
 }
 
 .navbar {
@@ -711,16 +714,23 @@ p {
     margin: auto auto auto auto;
 }
 
-h2 {
-    font-size: 22px;
-    line-height: 1.4em;
-}
-
-h3 {
+h2, 
+h4,
+h5 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333 !important;
+    
+}
+
+h5 {
+    padding: 10px 0px;
+}
+
+h3 {
+    font-size: 22px;
+    line-height: 1.4em;
 }
 
 .med-width-whitespace {
@@ -730,10 +740,6 @@ h3 {
 }
 
 h1 {
-    color: #333333 !important;
-}
-
-h4 {
     color: #333333 !important;
 }
 
@@ -783,11 +789,18 @@ h4 {
 
 .row {
 
-    background-color: #F3976C;
+    background-color: none;
 }
 
 .tc-white {
     color: #000000 !important;
+}
+
+.tc-white2 {
+    color: #000000 !important;
+    background-color: #f3976cad;
+    border-radius: 25px;
+    margin: 0% 20%;
 }
 
 .btn-atomic-tangerine {
