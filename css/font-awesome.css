@@ -11,6 +11,28 @@
     font-style: normal
 }
 
+.description-text {
+    font-size: 0.7em;
+    line-height: 21px;
+    opacity: 0.9;
+    margin: 0px 0px 45px 0px;   
+}
+
+.citation-text {
+    font-size: 0.6em;
+    line-height: 21px;
+    font-style: oblique;
+    font-weight: 600;
+    opacity: 0.9;
+    margin-bottom: 0px;
+}
+
+.citation-author {
+    font-size: 1.1em;
+    font-weight: 100;
+    font-style: normal;
+}
+
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
