@@ -284,7 +284,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 1.2em;
     background: url(img/texture-paper.png) #f3976cba;
     border-radius: 25px;
     margin: 20px 60px;
@@ -298,7 +298,7 @@ a:hover {
 .navbar-brand {
     height: auto;
     padding: 3px 15px;
-    font-size: 25px;
+    font-size: 2em;
     font-weight: normal;
     font-weight: 600;
     line-height: 44px;
@@ -351,7 +351,7 @@ a:hover {
 
 .navbar-toggle .icon-bar {
     background-color: rgba(0, 0, 0, .5);
-    width: 26px;
+    width: 1.1em;
 }
 
 .nav-invert .navbar .nav {
@@ -486,11 +486,11 @@ button {
 }
 
 .icon-md {
-    font-size: 30px !important;
+    font-size: 1em !important;
 }
 
 .icon-lg {
-    font-size: 60px !important;
+    font-size: 2.5em !important;
 }
 
 .sm-shadow {
@@ -542,8 +542,9 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
+    display: flex;
     text-align: center;
+    justify-content: center;
 }
 
 a[data-lightbox]:hover::before {
@@ -665,21 +666,21 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 100%;
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 3em;
 }
 
 .hero-bloc-text-sub {
-    font-size: 36px;
+    font-size: 3.1em;
 }
 
 .statement-bloc-text {
     line-height: 26px;
     font-style: italic;
-    font-size: 20px;
+    font-size: 2em;
     text-align: center;
     font-weight: lighter;
     max-width: 520px;
@@ -687,7 +688,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 0.5em;
 }
 
 .tight-width-whitespace {
@@ -696,7 +697,7 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 2em;
     font-family: "Open Sans";
 }
 
@@ -705,7 +706,7 @@ p {
     color: #FFFFFF !important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
-    font-size: 16px;
+    font-size: 0.5em;
     font-weight: 700;
 }
 
@@ -717,7 +718,7 @@ p {
 h2, 
 h4,
 h5 {
-    font-size: 15px;
+    font-size: 0.6em;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333 !important;
@@ -729,8 +730,8 @@ h5 {
 }
 
 h3 {
-    font-size: 22px;
-    line-height: 1.4em;
+    font-size: 0.8em;
+    line-height: 1.2em;
 }
 
 .med-width-whitespace {
@@ -757,8 +758,12 @@ h1 {
 }
 
 .portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.col-sm-6 {
+    margin-top: 15px;
 }
 
 .avatar {
@@ -849,6 +854,8 @@ h1 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.webp");
 }
+
+
 
 @media (max-width: 1024px) {
     .bloc {
