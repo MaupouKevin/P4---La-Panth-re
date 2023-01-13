@@ -90,7 +90,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("../img/texture-paper.png");
+    background: url("../img/texture-paper.webp");
     background-size: 280px 280px;
 }
 
@@ -288,7 +288,7 @@ a:hover {
 
 #bloc-1-hero h1 {
     font-size: 1.2em;
-    background: url(../img/texture-paper.png) #f3976cba;
+    background: url(../img/texture-paper.webp) #f3976cba;
     border-radius: 25px;
     margin: 20px 60px;
 }
@@ -855,11 +855,11 @@ h1 {
 }
 
 .bg-dots-bg {
-    background-image: url("../img/dots-bg.png");
+    background-image: url("../img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-    background-image: url("../img/lines-h2-bg.png");
+    background-image: url("../img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
