@@ -274,6 +274,10 @@ a:hover {
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
+    display: flex;
+    padding: 0% 30%;
+    width: 100%;
+    justify-content: space-around;
 }
 
 .row.row-no-gutters>[class^="col-"],
@@ -719,6 +723,9 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 h2, 
